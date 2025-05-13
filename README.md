@@ -16,12 +16,18 @@ This project processes and analyzes my personal Apple Health data (from iOS expo
 - Data filtering, transformation, and aggregation in PySpark
 - Visualizations of step count, calories burned, and sleep trends
 
-## 📊 Example Output
+## 📈 Example Output
 
-<img src="notebooks/step_trend.png" width="500">
-<img src="notebooks/sleep_trend.png" width="500">
-<img src="notebooks/energy_trend.png" width="500">
+###  Step Count (Last 30 Days)
+![Step Count](notebooks/step_trend.png)
 
+###  Sleep Duration
+![Sleep Duration](notebooks/sleep_trend.png)
+
+###  Active Energy Burned
+![Active Energy](notebooks/energy_trend.png)
+
+---
 ## 📁 Folder Structure
 
 - `/data`: stores raw XML and generated CSV (ignored in Git)
