@@ -34,6 +34,7 @@ This project processes and analyzes my personal Apple Health data (from iOS expo
 2. Place `export.xml` in `/data`
 3. Run `xml_to_csv.py` (or use the notebook)
 4. Run the notebook for Spark analysis and charts
+⚠️ Note: The raw Apple Health export file (`export.xml`) is not included in this repo due to size and privacy. To run this project, export your own data via the Health app on iOS and place the file in the `/data/` folder.
 
 ## 🗓️ Focused On
 - Last 30 days of data
